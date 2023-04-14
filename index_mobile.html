@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Page</title>
+<link href="css/main-mobile.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<!-- students must convert divs to semantic tags -->
+<body>
+	<div id="container">
+        
+        <header id="header-con">
+            <div id="main-header" class="grid-con">
+                <img src="images/logos_and_pngs/logo_FIP.png" alt="image" id="header-logo">
+                <nav id="mobile-nav">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <div class="dropdown-menu">
+                      <a href="#">Home</a>
+                      <a href="#">Catagories</a>
+                      <a href="#">Designes</a>
+                      <a href="#">About us</a>
+                      <a href="#">Contact Us</a>
+                    </div>
+                </nav>
+                  
+            </div>    
+        </header> 
+
+        <main>
+            <section id="hero-con"> <img class="header-image" src="images/header_image_mobile.jpg" alt="header image">
+                <div class="grid-con">
+                    <div id="hero-text" class="box-color">
+                    </div>
+                </div>
+            </section>
+
+            <div id="image-slider-con">
+                <h2>CATAGORIES</h2>
+                <img id="slider-image" src="images/mobile_index_images/designar_crockery Small_mobile.jpg" alt="image">
+                <!-- ascii symbols for <> -->
+                <span id="mobile-slider-left">&#60</span>
+                <span id="mobile-slider-right">&#62</span>
+                <h1 id="slider-text">DESIGNAR CROCKERY</h1>
+            </div>
+
+            <div id="about-us-con">
+                <h2>ABOUT US</h2>   
+                    <article id="about-us-text-con">     
+                        <div class="grid-con">
+                            <section id="about-us-text" class="box-color">
+                                <h1 id="aboutus-info-heading">ABOUT THE PROCESS IN CROCKERY HUT</h1>
+                                <p id="aboutus-para">Crockery Hut produces crockery products using a combination of traditional craftsmanship and modern technology. The manufacturing process starts with the selection of high-quality raw materials such as clay, feldspar, and kaolin. </p> 
+                                <p id="aboutus-para"> The raw materials are then mixed together and formed into a desired shape using a variety of techniques, including casting and pressing. The shaped products are then fired in a kiln at high temperatures to create a durable and long-lasting finish. Finally, the products undergo a quality check to ensure that they meet the brand’s high standards. Crockery Hut’s commitment to using the best materials and techniques ensures that their crockery products are of the highest quality and will last for years to come</p>
+                            </section>
+                        </div>      
+                    </article>  
+                    <section class="grid-con" id="about-us-photos">
+                        <img src="images/mobile_index_images/crockery_maker_profile1_image_mobile.png" alt="image" class="about-us-photo">
+                        <img src="images/mobile_index_images/crockery_pastemaking_profile4_image_mobile.png" alt="image" class="about-us-photo">
+                        <img src="images/mobile_index_images/crockery_drying_profile2_image_mobile.png" alt="image" class="about-us-photo">
+                        <img src="images/mobile_index_images/Crockery_decorator_profile3_image_mobile.png" alt="image" class="about-us-photo">
+                    </section>         
+            </div>
+
+            <section id="contact-us-con">
+                <article class="grid-con">
+                    <section id="contact-text" class="box-color">
+                        <h1 id="contact-form-text-heading">Feel free to contact us</h1>
+                        <p id="contact-form-text-pera">If you have any questions or inquiries about Crockery Hut’s products or services, please feel free to contact us. Our customer service team will be happy to assist you.</p>
+                    </section>
+                    <form id="contact-form" class="box-color">
+                        <form action="#" method="post">
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" id="full-name" name="full-name" required>
+                    
+                            <label for="mobile-no">Mobile Number:</label>
+                            <input type="tel" id="mobile-no" name="mobile-no" pattern="[0-9]{10}" required>
+                    
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                    
+                            <label for="queries">Queries:</label>
+                            <textarea id="queries" name="queries"></textarea>
+                    
+                            <button type="submit">Submit</button>
+                        </form>
+                    </form>
+                    
+                </article>
+            </section>
+        </main>
+
+        <footer id="footer-con">
+            <div class="grid-con">
+                <img src="images/logos_and_pngs/logo_FIP.png" alt="image" id="footer-logo">
+                </div>
+                <article id="footer-newsletter">
+                    <h3> News letter sign up</h3>
+                    <textarea name="newsletter-signup" id="newsletter-signup" cols="40" rows="1"> EMAIL</textarea>
+                </article>
+                <button id="footer-newsletter2"> SUBMIT
+                </button>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
